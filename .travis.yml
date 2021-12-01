@@ -8,4 +8,5 @@ script:
   - pytest libpythonpro --cov=libpythonpro
 after_success:
   - codecov
+  - bash <(curl -s https://codecov.io/bash)
 
