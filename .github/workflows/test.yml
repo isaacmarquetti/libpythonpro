@@ -17,10 +17,6 @@ jobs:
           pip install pipenv codecov
           pip install -r requirements-dev.txt
 
-      - name: Lint with flake8
-        run: |
-          pipenv run flake8 .
-
       - name: Test with pytest
         run: pipenv run pytest libpythonpro --cov=libpythonpro
 
