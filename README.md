@@ -8,7 +8,7 @@ Link para o curso [Python Pro] (https://www.python.pro.br/)
 [![Build Status](https://app.travis-ci.com/isaacmarquetti/libpythonpro.svg?branch=main)](https://app.travis-ci.com/isaacmarquetti/libpythonpro)
 [![Updates](https://pyup.io/repos/github/isaacmarquetti/libpythonpro/shield.svg)](https://pyup.io/repos/github/isaacmarquetti/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/isaacmarquetti/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/isaacmarquetti/libpythonpro/)
-
+[![codecov](https://codecov.io/gh/isaacmarquetti/libpythonpro/branch/main/graph/badge.svg?token=I20ACYEH9A)](https://codecov.io/gh/isaacmarquetti/libpythonpro)
 Suportada versão 3 de Python
 
 Para instalar:
