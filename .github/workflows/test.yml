@@ -20,9 +20,5 @@ jobs:
       - name: Test with pytest
         run: pipenv run pytest libpythonpro --cov=libpythonpro
 
-      - name: Coverage token
-        env:
-          CODECOV_TOKEN: 26b4e3d6-bac6-40e9-895b-b6ccaf40093f
-
       - name: Posting Coverage
         run: pipenv run codecov
