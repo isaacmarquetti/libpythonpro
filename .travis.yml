@@ -2,6 +2,10 @@ language: python
 python:
   - 3.9
 install:
-  - pip installl -r requirements-dev.txt
+  - pip installl -r requirements-dev.txt codecov
 script:
   - flake8
+  - pytest libpythonpro --cov=libpythonpro
+after_success:
+  - codecov
+
